@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import * as Font from 'expo-font'; //the first step to use custom fonts in React 
 import {AppLoading} from 'expo';
-import Navigator from './routes/homeStack';
+// import Navigator from './routes/homeStack';
+//insted of importing the homeStack we will import the drawer
+import Navigator from './routes/drawer';
+
 
 //second step for the fonts 
 const getFonts = () =>{
